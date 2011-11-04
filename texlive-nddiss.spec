@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/nddiss
+# catalog-date 2008-08-22 17:15:44 +0200
+# catalog-license lppl
+# catalog-version 3.0
 Name:		texlive-nddiss
 Version:	3.0
 Release:	1
@@ -61,6 +67,7 @@ format a thesis or dissertation in LaTeX.
 #- source
 %doc %{_texmfdistdir}/source/latex/nddiss/nddiss2e.dtx
 %doc %{_texmfdistdir}/source/latex/nddiss/nddiss2e.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -71,3 +78,5 @@ format a thesis or dissertation in LaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
