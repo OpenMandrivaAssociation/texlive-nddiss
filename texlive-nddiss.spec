@@ -1,12 +1,12 @@
-# revision 15878
+# revision 29349
 # category Package
 # catalog-ctan /macros/latex/contrib/nddiss
-# catalog-date 2008-08-22 17:15:44 +0200
+# catalog-date 2012-07-17 16:43:33 +0200
 # catalog-license lppl
 # catalog-version 3.0
 Name:		texlive-nddiss
 Version:	3.0
-Release:	2
+Release:	3
 Summary:	Notre Dame Dissertation format class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nddiss
@@ -67,17 +67,3 @@ format a thesis or dissertation in LaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.0-2
-+ Revision: 754254
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.0-1
-+ Revision: 719107
-- texlive-nddiss
-- texlive-nddiss
-- texlive-nddiss
-- texlive-nddiss
-
