@@ -6,7 +6,7 @@
 # catalog-version 3.0
 Name:		texlive-nddiss
 Version:	3.0
-Release:	10
+Release:	11
 Summary:	Notre Dame Dissertation format class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nddiss
