@@ -1,6 +1,6 @@
 Name:		texlive-nddiss
 Version:	45107
-Release:	1
+Release:	2
 Summary:	Notre Dame Dissertation format class
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nddiss
