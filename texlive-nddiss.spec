@@ -3,7 +3,7 @@ Version:	45107
 Release:	2
 Summary:	Notre Dame Dissertation format class
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/nddiss
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/nddiss
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nddiss.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/nddiss.doc.r%{version}.tar.xz
